@@ -71,3 +71,5 @@ class Hook {
         this.taps.push(item)
     }
 }
+
+module.exports = Hook

@@ -36,7 +36,7 @@ class HookCodeFactory {
     }
     contentWithInterceptors(options) {
         // 如果存在拦截器
-        if (this.options.interceptors.length > 0) {
+        if (this.options.interceptors && this.options.interceptors.length > 0) {
             // ...
         } else {
             return this.content(options);

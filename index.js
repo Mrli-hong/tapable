@@ -1,4 +1,4 @@
-const { SyncHook } = require('tapable');
+const SyncHook = require('./mytapable/SyncHook');
 
 const hooks = new SyncHook(['arg1', 'arg2'])
 
